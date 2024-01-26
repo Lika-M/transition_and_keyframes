@@ -1,0 +1,65 @@
+
+------------------------ TRANSITION PROPERTY ---
+
+---> Triggering:
+
+1. hover pseudo class
+2. class changes --->with js
+
+
+.element {
+    [name] [duration] [timing-function] [delay] 
+}  
+
+
+---------------------- ANIMATION WITH KEYFRAMES ---
+
+---> Triggering:
+
+1. hover pseudo class
+2. class changes ---> with js
+3. appending child element in the DOM  ---> with js
+
+
+.element {
+    [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]
+    myKeyframe 1s ease 0.5 infinity normal forwards paused
+}
+
+-------------------ANIMATING MOMENTS (UX)------------------------
+When to animate:
+
+1. Orientation -->
+    Where am I? 
+    Traveling somewhere.. New view, new page.
+    The example with rotating logging form, where appear a new page on the other side.
+    We understand your step and you can go ahead.
+
+2. Functional changes
+    What does this element do now? Radio buttons or another toggle element. Help to know state in here.
+    Hamburger menu, when on click it change the state.
+
+3. New element
+    What should I look at? 
+    Something new is on the page and we help him to view were it is.
+    Temporary element like a Modal or a new interface element, alert message, sum success like congratulations. 
+    Dropdown menu. Adding friends in a list of opportunity. 
+    Animation help people what changed and why.
+
+4. Highlight
+    What is important in this page? 
+    Little pulsing or highlighting bring an attention to a spot. Draw attention line in very crowded page.
+
+5. Visual feedback
+    Is the layout understand what i'm trying to do?
+    Navigate, send the message /it jumps up/. User has feeling that the message flying.
+    Represents the idea of motion.
+
+5. System status 
+    Is this working? How log does it take? Processing flows.
+    We need to let the user know he was not blocked, it works. Progress bar with different speeds.
+    Spinner. They tell us story.
+
+Animation connect with emotion level!
+User actions that saw us they are requesting something from the interface. 
+Moments of change. Motion of state from one state to another.
