@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition & Animation</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body id="main">
+    <div class="trigger">
+        <div class="box">Hover me 1</div>
+    </div>
+    <div class="box-2">Keyframe 2</div>
+    <div class="box-3">Keyframe 3</div>
+    <div class="wrapper">Click here</div>
+    <script>
+        {
+            const root = document.querySelector('#main');
+            const el = document.createElement('div');
+            el.textContent = 'Alert!';
+            el.classList.add('box-4');
+
+            root.addEventListener('click', () => { 
+                document.querySelector('.wrapper').remove();
+                root.appendChild(el); 
+            })
+        }
+    </script>
+</body>
+
+</html>
