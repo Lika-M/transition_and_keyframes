@@ -1,4 +1,5 @@
-
+CSS transition, animation and keyframes video by {DevTrips}: 
+https://www.youtube.com/watch?v=8kK-cA99SA0&list=PL8V1empgrpJZgV6sueEJmett9QlltY4Yc&ab_channel=DevTips
 ------------------------ TRANSITION PROPERTY ---
 
 ---> Triggering:
