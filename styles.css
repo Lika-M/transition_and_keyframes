@@ -8,13 +8,6 @@ body {
     gap: 3%;
 }
 
-.trigger {
-    width: 200px;
-    height: 200px;
-    border: 15px solid #ddd;
-    background-color: pink;
-}
-
 /*                      --- TRANSITION PROPERTY ---
 ---> triggering:
 1. hover pseudo class
@@ -22,9 +15,16 @@ body {
 --->
 
 .element {
-    [name] [duration] [timing-function] [delay] 
+    [property name] [duration] [timing-function] [delay] 
 }            
 */
+
+.trigger {
+    width: 200px;
+    height: 200px;
+    border: 15px solid #ddd;
+    background-color: pink;
+}
 
 .box {
     width: 100%;
@@ -34,13 +34,14 @@ body {
     font-size: 23px;
     text-align: center;
     padding: 50px;
+    /*the changes when trigger*/
     transition: transform 1s cubic-bezier(.65, .05, .36, 1), border-radius 0.5s ease-in 1s;
     /* do not trigger the child element, only parent */
     pointer-events: none;
 }
 
 .trigger:hover .box {
-    /* the property that will changes */
+    /*Property changes when triggered*/
     transform: translate(200px, 200px) rotate(45deg);
     border-radius: 50%;
 }
@@ -60,8 +61,8 @@ body {
 --->
 
 .element {
-    [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]
-    myKeyframe 1s ease 0.5 infinity normal forwards paused
+    [animation name] [duration] [timing-function] [delay] + [iteration-count] [direction] [fill-mode] [play-state]
+    myKeyframe 1s ease 0.5 3/infinity normal/reverse forwards paused/run
 }
 
 */
@@ -157,7 +158,7 @@ body {
     font-size: 23px;
     background-color: rgb(75, 253, 87);
 
-    
+
     animation-name: appear;
     animation-duration: 500ms;
     animation-timing-function: ease-in-out;
