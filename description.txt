@@ -1,30 +1,28 @@
-CSS transition, animation and keyframes video by {DevTrips}: 
+CSS transition, animation, and keyframes video by {DevTips}:
 https://www.youtube.com/watch?v=8kK-cA99SA0&list=PL8V1empgrpJZgV6sueEJmett9QlltY4Yc&ab_channel=DevTips
+
 ------------------------ TRANSITION PROPERTY ---
 
 ---> Triggering:
 
-1. hover pseudo class
-2. class changes --->with js
-
+1. hover pseudo-class
+2. class changes ---> with JS
 
 .element {
     [name] [duration] [timing-function] [delay] 
 }  
 
-
 ---------------------- ANIMATION WITH KEYFRAMES ---
 
 ---> Triggering:
 
-1. hover pseudo class
-2. class changes ---> with js
-3. appending child element in the DOM  ---> with js
-
+1. hover pseudo-class
+2. class changes ---> with JS
+3. appending child element in the DOM ---> with JS
 
 .element {
     [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]
-    myKeyframe 1s ease 0.5 infinity normal forwards paused
+    myKeyframe 1s ease 0.5 infinite normal forwards paused
 }
 
 -------------------ANIMATING MOMENTS (UX)------------------------
@@ -33,34 +31,34 @@ When to animate:
 1. Orientation -->
     Where am I? 
     Traveling somewhere.. New view, new page.
-    The example with rotating logging form, where appear a new page on the other side.
-    We understand your step and you can go ahead.
+    The example with rotating login form, where appears a new page on the other side.
+    We understand your step, and you can go ahead.
 
 2. Functional changes
-    What does this element do now? Radio buttons or another toggle element. Help to know state in here.
-    Hamburger menu, when on click it change the state.
+    What does this element do now? Radio buttons or another toggle element. Help to know the state in here.
+    Hamburger menu, when on click it changes the state.
 
 3. New element
     What should I look at? 
-    Something new is on the page and we help him to view were it is.
-    Temporary element like a Modal or a new interface element, alert message, sum success like congratulations. 
+    Something new is on the page, and we help him to view where it is.
+    Temporary element like a Modal or a new interface element, alert message, some success like congratulations. 
     Dropdown menu. Adding friends in a list of opportunity. 
-    Animation help people what changed and why.
+    Animation helps people what changed and why.
 
 4. Highlight
-    What is important in this page? 
-    Little pulsing or highlighting bring an attention to a spot. Draw attention line in very crowded page.
+    What is important on this page? 
+    Little pulsing or highlighting brings attention to a spot. Draw attention line in a very crowded page.
 
 5. Visual feedback
-    Is the layout understand what i'm trying to do?
-    Navigate, send the message /it jumps up/. User has feeling that the message flying.
+    Is the layout understandable what I'm trying to do?
+    Navigate, send the message /it jumps up/. The user has a feeling that the message is flying.
     Represents the idea of motion.
 
-5. System status 
-    Is this working? How log does it take? Processing flows.
+6. System status 
+    Is this working? How long does it take? Processing flows.
     We need to let the user know he was not blocked, it works. Progress bar with different speeds.
-    Spinner. They tell us story.
+    Spinner. They tell us a story.
 
-Animation connect with emotion level!
-User actions that saw us they are requesting something from the interface. 
+Animation connects with the emotional level!
+User actions that show us they are requesting something from the interface. 
 Moments of change. Motion of state from one state to another.
